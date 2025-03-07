@@ -5,5 +5,18 @@ export default function Home() {
     /* <code>{JSON.stringify(data, null, 2)} </code> */
   }
 
-  return <h1 className="heading">Home</h1>;
+  return (
+    <>
+      <section className="pink_container">
+        <h1 className="heading">
+          Pitch Your Startup, <br />
+          Connect With Entrepreneurs
+        </h1>
+
+        <p className="sub-heading !max-w-3xl">Submit Ideas, Vote on Pitches, and Get Noticed in Virtual Competitions.</p>
+      </section>
+
+      <section className="section_container"></section>
+    </>
+  );
 }
